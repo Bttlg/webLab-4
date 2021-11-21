@@ -13,16 +13,11 @@ class Header extends React.Component {
     return (
       <div className="container1">
         <div className="row1">
-          <p className="myName">My name is Лувсандагва</p>
-          <p className="myName">Програм хангамж</p>
+          <p className="myName">My name is Бэлгүтэй</p>
+          <p className="myName">Мэдээллийн технологи</p>
         </div>
         <div className="row2">
-          <img
-            className="image"
-            src="./components/header/download1.jpg"
-            height="auto"
-            width="60%"
-          />
+          <img className="image" src="./components/header/download1.jpg" />
         </div>
       </div>
     );

@@ -16,6 +16,6 @@ if (cs142models === undefined) {
 
 cs142models.exampleModel = function () {
   return {
-    name: "Luwsandawga GANG!",
+    name: "Нагаан Бэлгүтэй За сайн байцгаана уу!",
   };
 };
