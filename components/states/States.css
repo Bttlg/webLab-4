@@ -1,0 +1,49 @@
+/*
+CSS for the CS142 project #4 Problem #2 states component
+
+Since CSS uses a global name space for classes we should use names starting with
+cs142-states- here.
+*/
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  height: 1000px;
+  /* width: 80%; */
+  /* margin-left: 10%; */
+}
+
+.searchStates {
+  padding: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.input {
+  background-color: fdffb6;
+  margin-left: 5px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.statesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.states {
+  margin: 5px;
+  padding: 5px;
+  background-color: chocolate;
+
+  border-radius: 5px;
+}
+
+.errorText {
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
